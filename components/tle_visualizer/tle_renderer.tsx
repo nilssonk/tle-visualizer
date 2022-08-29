@@ -1,11 +1,11 @@
 import React, { Suspense, useRef } from 'react'
 import { RootState, useFrame } from '@react-three/fiber'
-import { Object3D } from 'three'
+import { Group } from 'three'
 
 import EarthModel from 'components/tle_visualizer/tle_renderer/earth_model'
 
 function TleRenderer(): JSX.Element {
-    const ref = useRef<Object3D>(new Object3D())
+    const ref = useRef<Group>(new Group())
 
     useFrame((_state: RootState, delta: number) => {
         if (ref) {
