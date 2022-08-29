@@ -1,0 +1,83 @@
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+div#__next {
+    height: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div#input_tle {
+    float: left;
+}
+textarea.input_tle {
+    resize: none;
+}
+h1.input_tle {
+    margin-bottom: 0.25em;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+h2.input_tle {
+    font-size: 12px;
+}
+
+ul#input_tle_example {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.input_tle_example {
+    border: 1px solid lightgray;
+    padding: 0.75em;
+    margin: 0;
+    white-space: pre-line;
+    font-size: 8px;
+}
+
+div.overlay_element {
+    border: 1px solid lightgray;
+    background-color: darkgray;
+    padding: 0.75em;
+    opacity: 75%;
+}
+
+div#show_tle {
+    float: right;
+}
+h1.show_tle {
+    margin-bottom: 0.25em;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+}
+h2.show_tle {
+    margin: 0 0 2px 0;
+    font-size: 12px;
+}
+p.show_tle {
+    margin: 0px;
+    font-size: 10px;
+}
+ul#show_tle {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+li.show_tle {
+    padding: 0px;
+    margin: 0 0 2px 0;
+}
